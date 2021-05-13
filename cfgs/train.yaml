@@ -110,7 +110,7 @@ eval_train: false
 num_workers: 2
 val_interval: 1
 debug: false
-# epoch interval for model saving. if 0 only save last and best models
+# epoch interval for model saving. if 0 only save last and best pretrained_models
 save_model_interval: 0
 # distributed training parameters
 # number of distributed processes
@@ -124,3 +124,4 @@ vis_port: 8090
 vis_server: http://localhost
 no_vis: false
 vis_and_log_interval: 50
+matcher: sinkhorn
